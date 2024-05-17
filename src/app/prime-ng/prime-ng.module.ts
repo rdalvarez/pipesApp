@@ -1,11 +1,20 @@
 import { NgModule } from '@angular/core';
-import {MenuModule} from 'primeng/menu';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import { ButtonModule } from 'primeng/button';
+import { CardModule } from 'primeng/card';
+import { FieldsetModule } from 'primeng/fieldset';
+import { MenubarModule } from 'primeng/menubar';
+import { MenuModule } from 'primeng/menu';
+import { PanelModule } from 'primeng/panel';
 
 @NgModule({
-  exports:[
+  exports: [
+    ButtonModule,
+    CardModule,
+    FieldsetModule,
+    MenubarModule,
     MenuModule,
-    BrowserAnimationsModule
-  ]
+    PanelModule,
+  ],
 })
-export class PrimeNgModule { }
+export class PrimeNgModule {}
