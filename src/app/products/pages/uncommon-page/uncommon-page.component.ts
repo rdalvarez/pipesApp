@@ -37,9 +37,9 @@ export class UncommonPageComponent {
     'Belen',
     'Eduardo',
     'Melisa',
-    'Natalia',
-    'Claudia',
-    'Ricardo',
+    // 'Natalia',
+    // 'Claudia',
+    // 'Ricardo',
   ];
 
   public clientsMap = {
